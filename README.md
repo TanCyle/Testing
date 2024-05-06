@@ -2,7 +2,7 @@ clone the github repository containing the cypress test.
 https://github.com/TanCyle/automated-testing.git
 
 navigate into the cloned repository directory
-cd your-repository
+cd automated-testing
 
 install cypress and any other dependencies required for your test.
 cd automated-testing
