@@ -19,18 +19,21 @@ once it's done, cypress will display the test result on the test runner window. 
 
 test for displaying error message when the username field is empty.
 
-here are the steps
-expected result: click the login button without filling in any fields
+test caseses:
+
+test for displaying error message when the username field is empty
+- click the login button without filling in any fields
+expected result: an error message should be displayed prompting the user to enter both email and password
 actual result: an error message should display as expected and it disappears after 5 seconds
 
 test for displaying error message for an invalid username and a valid password
-fill in an invalid username and password
+- fill in an invalid username and password
 expected result: an error message should display indicating invalid credentials, and it should disappear after 5 seconds
 actual results: the error message is displayed as expected, and it disappears after 5 seconds
 
 test for successfully logging in with a valid username and password
-fill in a valid username and password
-click the login button
+- fill in a valid username and password
+- click the login button
 expected result: the user should be redirected to the next page after successfully logging in
 actual result: the user is redirected to the next page as expected
 
