@@ -12,7 +12,7 @@ Node.js - Ensure you have Node.js installed on your system.
 Clone the Repository
 Open your VS Code and clone this repository using the following command:
 
-git clone https://github.com/derf567/Automated-Testing-Submission.git
+git clone [https://github.com/derf567/Automated-Testing-Submission.git](https://github.com/TanCyle/automated-testing)
 
 cd Automated-Testing-Submission
 goto https://docs.cypress.io/guides/getting-started/installing-cypress
